@@ -183,7 +183,7 @@ export default {
 <style scoped>
 .services-section {
   padding: 60px 0 40px 0;
-  background: var(--charcoal);
+  background: var(--white);
 }
 
 .container {
@@ -200,7 +200,7 @@ export default {
 .section-title {
   font-size: 2.5rem;
   font-weight: 900;
-  color: var(--white);
+  color: var(--charcoal);
   margin-bottom: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -211,7 +211,7 @@ export default {
 .section-subtitle {
   max-width: 600px;
   margin: 16px auto 0;
-  color: #999;
+  color: #666;
   font-size: 1rem;
   line-height: 1.6;
   text-transform: uppercase;

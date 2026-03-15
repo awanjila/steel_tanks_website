@@ -6,7 +6,7 @@
         <div class="about-image-wrapper">
           <div class="image-container">
             <img 
-              src="/images/about/tank-factory.jpg" 
+              src="/images/about/tank-factory.jpeg" 
               alt="Meksis Engineering Steel Tank Manufacturing" 
               class="about-image"
             />

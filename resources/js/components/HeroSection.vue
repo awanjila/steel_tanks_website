@@ -163,7 +163,7 @@ export default {
 .slide-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(26, 26, 26, 0.85);
+  background: transparent;
 }
 
 .container {
@@ -177,7 +177,7 @@ export default {
 
 .slide-content {
   max-width: 700px;
-  background: var(--charcoal);
+  background: rgba(26, 26, 26, 0.92);
   padding: 40px 50px;
   border-left: 5px solid var(--royal-yellow);
 }

@@ -218,7 +218,7 @@ onMounted(async () => {
 
 .blog-section {
   padding: 60px 0 40px 0;
-  background: var(--charcoal);
+  background: var(--white);
   position: relative;
 }
 
@@ -236,7 +236,7 @@ onMounted(async () => {
 .section-title {
   font-size: 2.5rem;
   font-weight: 900;
-  color: var(--white);
+  color: var(--charcoal);
   margin-bottom: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -244,7 +244,7 @@ onMounted(async () => {
 
 .section-subtitle {
   font-size: 1rem;
-  color: #999;
+  color: #666;
   max-width: 500px;
   margin: 0 auto;
   line-height: 1.6;
@@ -272,7 +272,7 @@ onMounted(async () => {
 .spinner {
   width: 48px;
   height: 48px;
-  border: 4px solid #444;
+  border: 4px solid #ddd;
   border-top-color: var(--royal-yellow);
   animation: spin 0.8s linear infinite;
 }
@@ -290,7 +290,7 @@ onMounted(async () => {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
-  background: #444;
+  background: #ddd;
   width: 100%;
 }
 
@@ -442,7 +442,7 @@ onMounted(async () => {
 .dot {
   width: 12px;
   height: 12px;
-  background: #444;
+  background: #ccc;
   border: none;
   cursor: pointer;
   transition: all 0.1s;
@@ -455,7 +455,7 @@ onMounted(async () => {
 }
 
 .dot:not(.active):hover {
-  background: #666;
+  background: #999;
 }
 
 /* Section Footer */
