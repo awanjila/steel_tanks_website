@@ -5,7 +5,7 @@
       <div class="hero-overlay"></div>
       <div class="hero-content">
         <h1 class="hero-title">About Meksis Engineering</h1>
-        <p class="hero-subtitle">Securing Your World Since 2010</p>
+        <p class="hero-subtitle">Steel Water Tank Solutions Since 2010</p>
       </div>
       <div class="hero-slider">
         <transition name="fade" mode="out-in">
@@ -39,7 +39,7 @@
         </div>
         <div class="content-card">
           <p class="lead-text">
-            Meksis Engineering was established in 2010. Our primary aim is providing the best security solutions for our clients by taking advantage of today's modern technology. We form partnerships with our clients to ensure they realize the most gain in terms of advice and economy.
+            Meksis Engineering was established in 2010. Our primary aim is providing the best steel water tank solutions for our clients by taking advantage of today's modern technology. We form partnerships with our clients to ensure they realize the most gain in terms of advice and economy.
           </p>
         </div>
       </div>
@@ -81,8 +81,8 @@
               </div>
               <h2>Vision Statement</h2>
             </div>
-            <p class="vision-text">
-              Our vision is to be a market leader in the security industry through our dedication to providing quality services and the best solutions in the market.
+<p class="vision-text">
+              Our vision is to be a market leader in the steel water tank industry through our dedication to providing quality products and the best solutions in the market.
             </p>
           </div>
         </div>
@@ -94,7 +94,7 @@
       <div class="content-wrapper">
         <div class="section-header centered">
           <h2>Our Products</h2>
-          <p class="section-subtitle">Comprehensive security systems tailored to your needs</p>
+          <p class="section-subtitle">Comprehensive water storage solutions tailored to your needs</p>
         </div>
 
         <div class="solutions-grid">
@@ -159,47 +159,47 @@ let sliderInterval = null
 
 const heroSlides = [
   {
-    title: 'Professional CCTV Surveillance Systems',
-    description: 'High-definition cameras with remote monitoring, night vision, and cloud storage for complete property oversight.',
-    image: '/images/hero/cctv-surveillance.jpg'
+    title: 'Elevated Pressed Steel Tanks',
+    description: 'High-capacity water storage solutions for commercial and industrial applications with superior durability.',
+    image: '/images/hero/elevated-tanks.jpg'
   },
   {
-    title: 'Electric Fence & Perimeter Security',
-    description: 'Advanced energizer systems with alarm integration, ensuring maximum protection for residential and commercial properties.',
-    image: '/images/hero/electric-fence.jpg'
+    title: 'Galvanized Steel Tanks',
+    description: 'Corrosion-resistant tanks with hot-dip galvanization, ideal for long-term water storage.',
+    image: '/images/hero/galvanized-tanks.jpg'
   },
   {
-    title: 'Access Control & Biometric Solutions',
-    description: 'Fingerprint scanners, card readers, and automated gate systems for secure and convenient entry management.',
-    image: '/images/hero/residential-security.jpg'
+    title: 'GRP Water Tanks',
+    description: 'Lightweight, durable, and corrosion-free composite tanks for residential and commercial use.',
+    image: '/images/hero/grp-tanks.jpg'
   },
   {
-    title: 'Automated Gates & Barrier Systems',
-    description: 'Automated gates and barriers for secure property access.',
-    image: '/images/hero/automated-gates.jpg'
+    title: 'Professional Installation Services',
+    description: 'Expert installation and maintenance services across Kenya and East Africa.',
+    image: '/images/hero/tank-installation.jpg'
   }
 ]
 
 const residentialSolutions = [
-  'CCTV Cameras',
-  'Automated Gates',
-  'Electric Fences',
-  'Fire Extinguishers',
-  'Video Door Phones',
-  'Fire Doors'
+  'Elevated Pressed Steel Tanks',
+  'GRP Water Tanks',
+  'Rooftop Tanks',
+  'Ground Level Tanks',
+  'Water Tank Accessories',
+  'Tank Maintenance Services'
 ]
 
 const commercialSolutions = [
-  'Biometric Access Control',
-  'Surveillance Cameras',
-  'Metal Detectors',
-  'Fire Extinguishers'
+  'Industrial Steel Tanks',
+  'Large Capacity Storage',
+  'Custom Tank Fabrication',
+  'Installation Services'
 ]
 
 const outdoorSolutions = [
-  'Electric Fences',
-  'Barriers and Road Blocks',
-  'Automatic Gates'
+  'Ground Level Tanks',
+  'Elevated Steel Towers',
+  'Rainwater Harvesting Systems'
 ]
 
 onMounted(() => {
@@ -232,20 +232,21 @@ onUnmounted(() => {
 /* ===== HERO SECTION ===== */
 .hero-section {
   position: relative;
-  background: linear-gradient(135deg, #02375f 0%, #01aeef 100%);
+  background: #1a1a1a;
   min-height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   padding: 80px 24px 120px;
+  border-bottom: 4px solid #ffc107;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 30% 50%, rgba(1, 174, 239, 0.3) 0%, transparent 50%),
-              radial-gradient(circle at 70% 50%, rgba(2, 55, 95, 0.3) 0%, transparent 50%);
+  background: radial-gradient(circle at 30% 50%, rgba(255, 193, 7, 0.2) 0%, transparent 50%),
+              radial-gradient(circle at 70% 50%, rgba(26, 26, 26, 0.5) 0%, transparent 50%);
 }
 
 .hero-content {
@@ -281,16 +282,14 @@ onUnmounted(() => {
 }
 
 .slide {
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-  border-radius: 16px;
+  background: white;
+  border-left: 4px solid #ffc107;
   padding: 32px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
 .slide-content h3 {
   font-size: 1.5rem;
-  color: #02375f;
+  color: #1a1a1a;
   margin-bottom: 12px;
   font-weight: 700;
 }
@@ -344,7 +343,7 @@ onUnmounted(() => {
 }
 
 .section-container.bg-light {
-  background: linear-gradient(to bottom, #f8fafc 0%, #f1f5f9 100%);
+  background: #f5f5f5;
 }
 
 .content-wrapper {
@@ -363,13 +362,15 @@ onUnmounted(() => {
 .section-header h2 {
   font-size: 2.5rem;
   font-weight: 800;
-  color: #02375f;
+  color: #1a1a1a;
   margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .section-subtitle {
   font-size: 1.125rem;
-  color: #64748b;
+  color: #666;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -377,8 +378,7 @@ onUnmounted(() => {
 .icon-wrapper {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #01aeef 0%, #02375f 100%);
-  border-radius: 12px;
+  background: #ffc107;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -387,22 +387,20 @@ onUnmounted(() => {
 
 .icon-wrapper i {
   font-size: 1.75rem;
-  color: white;
+  color: #1a1a1a;
 }
 
 /* ===== CONTENT CARD ===== */
 .content-card {
   background: white;
-  border-radius: 16px;
   padding: 40px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
-  border: 1px solid rgba(1, 174, 239, 0.1);
+  border: 2px solid #1a1a1a;
 }
 
 .lead-text {
   font-size: 1.125rem;
   line-height: 1.8;
-  color: #475569;
+  color: #333;
 }
 
 /* ===== MISSION & VISION ===== */
@@ -414,16 +412,17 @@ onUnmounted(() => {
 
 .mv-card {
   background: white;
-  border-radius: 16px;
   padding: 40px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
-  border: 1px solid rgba(1, 174, 239, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid #1a1a1a;
+  transition: all 0.2s;
 }
 
 .mv-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 32px rgba(1, 174, 239, 0.15);
+  border-color: #ffc107;
+}
+
+.mv-card:hover .mv-header h2 {
+  color: #ffc107;
 }
 
 .mv-header {
@@ -432,8 +431,10 @@ onUnmounted(() => {
 
 .mv-header h2 {
   font-size: 1.75rem;
-  color: #02375f;
+  color: #1a1a1a;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .statement-list {
@@ -450,7 +451,7 @@ onUnmounted(() => {
 }
 
 .statement-list li i {
-  color: #01aeef;
+  color: #ffc107;
   font-size: 1.25rem;
   flex-shrink: 0;
   margin-top: 2px;
@@ -458,14 +459,14 @@ onUnmounted(() => {
 
 .statement-list li div {
   font-size: 1rem;
-  color: #475569;
+  color: #333;
   line-height: 1.7;
 }
 
 .vision-text {
   font-size: 1.125rem;
   line-height: 1.8;
-  color: #475569;
+  color: #333;
 }
 
 /* ===== SOLUTIONS GRID ===== */
@@ -478,16 +479,13 @@ onUnmounted(() => {
 
 .solution-card {
   background: white;
-  border-radius: 16px;
   padding: 32px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
-  border: 1px solid rgba(1, 174, 239, 0.1);
-  transition: all 0.3s ease;
+  border: 2px solid #1a1a1a;
+  transition: all 0.2s;
 }
 
 .solution-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 40px rgba(1, 174, 239, 0.2);
+  border-color: #ffc107;
 }
 
 .solution-header {
@@ -497,23 +495,23 @@ onUnmounted(() => {
 .solution-icon {
   width: 70px;
   height: 70px;
-  border-radius: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 16px;
+  background: #1a1a1a;
 }
 
 .solution-icon.residential {
-  background: linear-gradient(135deg, #01aeef 0%, #0284c7 100%);
+  background: #1a1a1a;
 }
 
 .solution-icon.commercial {
-  background: linear-gradient(135deg, #02375f 0%, #01aeef 100%);
+  background: #1a1a1a;
 }
 
 .solution-icon.outdoor {
-  background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
+  background: #1a1a1a;
 }
 
 .solution-icon i {
@@ -524,7 +522,7 @@ onUnmounted(() => {
 .solution-header h3 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #02375f;
+  color: #1a1a1a;
 }
 
 .solution-list {
@@ -539,9 +537,9 @@ onUnmounted(() => {
   align-items: center;
   gap: 12px;
   font-size: 1rem;
-  color: #475569;
+  color: #333;
   padding: 8px 0;
-  border-bottom: 1px solid #f1f5f9;
+  border-bottom: 1px solid #ddd;
 }
 
 .solution-list li:last-child {
@@ -549,7 +547,7 @@ onUnmounted(() => {
 }
 
 .solution-list li i {
-  color: #01aeef;
+  color: #ffc107;
   font-size: 0.875rem;
   flex-shrink: 0;
 }

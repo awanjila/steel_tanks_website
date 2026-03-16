@@ -68,7 +68,7 @@ class AboutController extends Controller
 
 public function About(){
 
- return view('client.about');
+  return view('client.about');
 }//endmethod
 
 

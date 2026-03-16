@@ -75,7 +75,6 @@
                   :href="`/show/product/${service.slug}`"
                   class="service-item"
                   @mouseenter="showProductsDropdown = true"
-                  @click.stop="showProductsDropdown = false"
                 >
                   <span class="service-name">{{ service.name }}</span>
                 </a>
@@ -106,8 +105,8 @@
     <transition name="slide">
       <div v-show="mobileMenuOpen" class="mobile-nav">
         <div class="mobile-nav-content">
-          <a href="/" class="mobile-nav-link" @click="mobileMenuOpen = false">HOME</a>
-          <a href="/about" class="mobile-nav-link" @click="mobileMenuOpen = false">ABOUT US</a>
+          <a href="/" class="mobile-nav-link">HOME</a>
+          <a href="/about" class="mobile-nav-link">ABOUT US</a>
           
           <!-- Mobile Products Dropdown -->
           <div class="mobile-dropdown">
@@ -132,8 +131,8 @@
             </transition>
           </div>
 
-          <a href="/blogs" class="mobile-nav-link" @click="mobileMenuOpen = false">BLOG</a>
-          <a href="/contact" class="mobile-nav-link" @click="mobileMenuOpen = false">CONTACT</a>
+          <a href="/blogs" class="mobile-nav-link">BLOG</a>
+          <a href="/contact" class="mobile-nav-link">CONTACT</a>
 
           <!-- Mobile CTA Buttons -->
           <div class="mobile-cta-buttons">

@@ -10,11 +10,11 @@
       <div class="container">
         <div class="hero-content">
           <div class="hero-text">
-            <h1 class="hero-title">Our Works — Smart Systems & Solutions</h1>
-            <p class="hero-subtitle">From POS and School Management Systems to Websites, CCTV, and Biometrics — we deliver end-to-end solutions.</p>
+<h1 class="hero-title">OUR WORKS — STEEL TANK PROJECTS</h1>
+            <p class="hero-subtitle">From elevated pressed steel tanks to GRP water tanks — we deliver robust water storage solutions across Kenya and East Africa.</p>
           </div>
           <div class="hero-cta">
-            <router-link to="/contact" class="cta-button primary sticky-cta">Start a Project</router-link>
+            <a href="/contact" class="cta-button primary sticky-cta">Start a Project</a>
           </div>
         </div>
       </div>
@@ -23,8 +23,8 @@
     <!-- Featured / Highlighted Projects -->
     <section class="featured-projects-section">
       <div class="container">
-        <h2 class="section-title">Featured Projects</h2>
-        <p class="section-description">Showcasing our most impactful solutions that drive real business results.</p>
+<h2 class="section-title">Featured Projects</h2>
+        <p class="section-description">Showcasing our most impactful steel tank installations across Kenya.</p>
         <div class="featured-grid">
           <div class="featured-card" v-for="project in featuredProjects" :key="project.id">
             <div class="project-image">
@@ -78,35 +78,35 @@
       <div class="container">
         <h2 class="section-title">Client Success Stories</h2>
         <div class="testimonials-slider">
-          <div class="testimonial-card">
+<div class="testimonial-card">
             <blockquote class="testimonial-quote">
-              "Wabe Studio transformed our school management completely. The system handles everything from attendance to parent communication seamlessly."
+              "Meksis Engineering delivered a 500,000 litre elevated tank that has been performing flawlessly for our factory. Excellent craftsmanship."
             </blockquote>
             <div class="testimonial-author">
-              <strong>Sarah Johnson</strong>
-              <span>Principal, HopePath Academy</span>
+              <strong>James Kariuki</strong>
+              <span>Factory Manager, Rift Valley Foods</span>
             </div>
-            <router-link to="/contact" class="testimonial-cta">Want results like these? Start Your Project</router-link>
+            <a href="/contact" class="testimonial-cta">Want results like these? Start Your Project</a>
           </div>
           <div class="testimonial-card">
             <blockquote class="testimonial-quote">
-              "Our POS system has increased efficiency by 300%. The real-time analytics and inventory management are game-changers."
+              "The GRP tank installation was completed on time and the quality is outstanding. Highly recommend for commercial water storage."
             </blockquote>
             <div class="testimonial-author">
-              <strong>Michael Chen</strong>
-              <span>CEO, Foxtrot Products</span>
+              <strong>Mary Wanjiku</strong>
+              <span>Hotel Director, Coastal Resort</span>
             </div>
-            <router-link to="/contact" class="testimonial-cta">Want results like these? Start Your Project</router-link>
+            <a href="/contact" class="testimonial-cta">Want results like these? Start Your Project</a>
           </div>
           <div class="testimonial-card">
             <blockquote class="testimonial-quote">
-              "The ecommerce platform they built for us handles thousands of orders daily. Exceptional performance and support."
+              "Professional service from design to installation. Our galvanized steel tank has exceeded expectations."
             </blockquote>
             <div class="testimonial-author">
-              <strong>David Kiprop</strong>
-              <span>Operations Manager, Wabe Gadgets</span>
+              <strong>Peter Ochieng</strong>
+              <span>Operations Lead, Nakuru Agro</span>
             </div>
-            <router-link to="/contact" class="testimonial-cta">Want results like these? Start Your Project</router-link>
+            <a href="/contact" class="testimonial-cta">Want results like these? Start Your Project</a>
           </div>
         </div>
       </div>
@@ -116,26 +116,26 @@
     <section class="metrics-section">
       <div class="container">
         <h2 class="section-title">Our Achievements</h2>
-        <div class="metrics-grid">
+<div class="metrics-grid">
           <div class="metric-card">
-            <div class="metric-number">50+</div>
-            <div class="metric-label">Systems Deployed</div>
+            <div class="metric-number">500+</div>
+            <div class="metric-label">Tanks Installed</div>
           </div>
           <div class="metric-card">
-            <div class="metric-number">30+</div>
-            <div class="metric-label">Businesses Served</div>
+            <div class="metric-number">15+</div>
+            <div class="metric-label">Years Experience</div>
           </div>
           <div class="metric-card">
-            <div class="metric-number">10+</div>
-            <div class="metric-label">Schools Automated</div>
+            <div class="metric-number">8</div>
+            <div class="metric-label">Countries Served</div>
           </div>
           <div class="metric-card">
-            <div class="metric-number">25+</div>
-            <div class="metric-label">CCTV Installations</div>
+            <div class="metric-number">98%</div>
+            <div class="metric-label">Client Satisfaction</div>
           </div>
         </div>
         <div class="metrics-cta">
-          <router-link to="/contact" class="cta-button secondary">Get Your Solution Today</router-link>
+          <a href="/contact" class="cta-button secondary">Get Your Solution Today</a>
         </div>
       </div>
     </section>
@@ -156,15 +156,15 @@
               allowfullscreen
             ></iframe>
             <div class="video-overlay">
-              <router-link to="/contact" class="overlay-cta">Book a Consultation</router-link>
+              <a href="/contact" class="overlay-cta">Book a Consultation</a>
             </div>
           </div>
           <div class="media-description">
             <h3>Experience the Power of Smart Systems</h3>
             <p>Watch how our integrated solutions streamline operations and boost productivity across various industries.</p>
             <div class="media-links">
-              <a href="https://www.youtube.com/watch?v=knig7eODiSY" target="_blank" class="media-link">🎥 Watch Full Demo</a>
-              <router-link to="/contact" class="media-link">📞 Schedule Consultation</router-link>
+<a href="https://www.youtube.com/watch?v=knig7eODiSY" target="_blank" class="media-link">🎥 Watch Full Demo</a>
+              <a href="/contact" class="media-link">📞 Schedule Consultation</a>
             </div>
           </div>
         </div>
@@ -174,11 +174,11 @@
     <!-- Bottom / Footer CTA -->
     <section class="bottom-cta-section">
       <div class="container">
-        <h2 class="cta-title">Ready to Automate Your Business?</h2>
-        <p class="cta-text">Join the growing number of businesses that trust Wabe Studio for their digital transformation.</p>
+<h2 class="cta-title">Ready to Install Your Water Tank?</h2>
+        <p class="cta-text">Join the growing number of businesses that trust Meksis Engineering for their water storage needs.</p>
         <div class="cta-buttons">
-          <router-link to="/contact" class="cta-button primary">Start a Project</router-link>
-          <router-link to="/contact" class="cta-button secondary">Book a Consultation</router-link>
+<a href="/contact" class="cta-button primary">Start a Project</a>
+          <a href="/contact" class="cta-button secondary">Book a Consultation</a>
         </div>
       </div>
     </section>
@@ -192,27 +192,27 @@ export default {
     return {
       portfolioCategories: [],
       floatingCtaVisible: false,
-      featuredProjects: [
+featuredProjects: [
         {
           id: 1,
-          title: "Academic Insititutions Website",
-          description: "Complete digital transformation for educational institutions with attendance, grading, and parent communication.",
-          image: "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=800&h=600&fit=crop",
-          categorySlug: "web-design-development"
+          title: "Elevated Pressed Steel Tank - Nairobi",
+          description: "500,000 litre capacity elevated tank installed for a commercial complex in Nairobi's industrial area.",
+          image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&h=600&fit=crop",
+          categorySlug: "elevated-pressed-steel-tanks"
         },
         {
           id: 2,
-          title: "POS & Inventory System",
-          description: "Real-time sales tracking, inventory management, and analytics for retail businesses.",
-          image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
-          categorySlug: "pos-inventory-management"
+          title: "GRP Water Tank - Mombasa",
+          description: "200,000 litre GRP tank installed for a hotel resort along the coast.",
+          image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=600&fit=crop",
+          categorySlug: "grp-water-tanks"
         },
         {
           id: 3,
-          title: "E-Commerce Platform",
-          description: "Full-featured online store with payment integration and order management.",
-          image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&h=600&fit=crop",
-          categorySlug: "ecommerce-platforms"
+          title: "Galvanized Steel Tank - Nakuru",
+          description: "Ground-level 300,000 litre galvanized tank for agricultural processing plant.",
+          image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&h=600&fit=crop",
+          categorySlug: "galvanized-steel-tanks"
         }
       ]
     }
@@ -305,10 +305,11 @@ export default {
 
 /* ===== HERO SECTION ===== */
 .hero-section {
-  background: linear-gradient(135deg, #1e3a8a 0%, #0369a1 100%);
+  background: #1a1a1a;
   color: white;
   padding: 60px 24px;
   text-align: center;
+  border-bottom: 4px solid #ffc107;
 }
 
 .hero-content {
@@ -336,23 +337,21 @@ export default {
 }
 
 .hero-cta .cta-button {
-  background: white;
-  color: #1e3a8a;
+  background: #ffc107;
+  color: #1a1a1a;
   padding: 12px 24px;
-  border-radius: 6px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.95rem;
   display: inline-block;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.2);
-  border: 2px solid #0369a1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #ffc107;
 }
 
 .hero-cta .cta-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(30, 58, 138, 0.3);
-  background: #f0f9ff;
+  background: transparent;
+  color: #ffc107;
 }
 
 /* ===== SECTIONS ===== */
@@ -361,16 +360,18 @@ section {
 }
 
 section:nth-child(even) {
-  background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%);
+  background: #f5f5f5;
 }
 
 .section-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #1e3a8a;
+  color: #1a1a1a;
   text-align: center;
   margin-bottom: 16px;
   line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .section-description {
@@ -384,27 +385,30 @@ section:nth-child(even) {
 
 /* ===== FEATURED PROJECTS ===== */
 .featured-projects-section {
-  background: #f8fafc;
+  background: #ffffff;
 }
 
 .featured-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 24px;
+  gap: 0;
 }
 
 .featured-card {
   background: white;
-  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 12px rgba(30, 58, 138, 0.08);
-  transition: all 0.3s ease;
-  border-left: 4px solid #0369a1;
+  transition: all 0.2s;
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .featured-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 20px rgba(30, 58, 138, 0.12);
+  background: #ffc107;
+}
+
+.featured-card:hover .project-title,
+.featured-card:hover .project-description {
+  color: #1a1a1a;
 }
 
 .project-image {
@@ -430,13 +434,15 @@ section:nth-child(even) {
 .project-title {
   font-size: 1.3rem;
   font-weight: 700;
-  color: #1e3a8a;
+  color: #1a1a1a;
   margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .project-description {
   font-size: 0.95rem;
-  color: #475569;
+  color: #555;
   margin-bottom: 20px;
   line-height: 1.6;
 }
@@ -469,61 +475,62 @@ section:nth-child(even) {
 
 .btn-primary, .btn-secondary {
   padding: 10px 20px;
-  border-radius: 6px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.9rem;
   text-decoration: none;
-  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   display: inline-block;
 }
 
 .btn-primary {
-  background: #1e3a8a;
-  color: white;
-  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3);
+  background: #ffc107;
+  color: #1a1a1a;
+  border: 2px solid #ffc107;
 }
 
 .btn-primary:hover {
-  background: #0369a1;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(30, 58, 138, 0.4);
+  background: #1a1a1a;
+  color: #ffc107;
 }
 
 .btn-secondary {
   background: transparent;
-  color: #0369a1;
-  border: 2px solid #0369a1;
+  color: #1a1a1a;
+  border: 2px solid #1a1a1a;
 }
 
 .btn-secondary:hover {
-  background: #0369a1;
-  color: white;
-  transform: translateY(-2px);
+  background: #1a1a1a;
+  color: #ffc107;
 }
 
 /* ===== PORTFOLIO CATEGORIES ===== */
 .portfolio-categories-section {
-  background: white;
+  background: #f5f5f5;
 }
 
 .categories-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
+  gap: 0;
 }
 
 .category-card {
   background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 12px rgba(30, 58, 138, 0.08);
   overflow: hidden;
-  transition: all 0.3s ease;
-  border-top: 3px solid #0369a1;
+  transition: all 0.2s;
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .category-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 20px rgba(30, 58, 138, 0.12);
+  background: #ffc107;
+}
+
+.category-card:hover .category-title,
+.category-card:hover .category-description {
+  color: #1a1a1a;
 }
 
 .category-image {
@@ -549,13 +556,15 @@ section:nth-child(even) {
 .category-title {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #1e3a8a;
+  color: #1a1a1a;
   margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .category-description {
   font-size: 0.9rem;
-  color: #64748b;
+  color: #555;
   margin-bottom: 12px;
   line-height: 1.5;
 }
@@ -591,16 +600,17 @@ section:nth-child(even) {
 
 .explore-btn {
   display: inline-block;
-  color: #0369a1;
+  color: #1a1a1a;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.9rem;
-  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.2s;
 }
 
 .explore-btn:hover {
-  color: #1e3a8a;
-  transform: translateX(5px);
+  color: #ffc107;
 }
 
 .no-categories {
@@ -611,12 +621,12 @@ section:nth-child(even) {
 
 /* ===== TESTIMONIALS ===== */
 .testimonials-section {
-  background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%);
+  background: #ffffff;
 }
 
 .testimonials-slider {
   display: flex;
-  gap: 24px;
+  gap: 0;
   overflow-x: auto;
   padding: 20px 0;
   scroll-snap-type: x mandatory;
@@ -624,24 +634,28 @@ section:nth-child(even) {
 
 .testimonial-card {
   min-width: 320px;
-  background: white;
+  background: #1a1a1a;
   padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 2px 12px rgba(30, 58, 138, 0.08);
   scroll-snap-align: start;
-  transition: all 0.3s ease;
+  transition: all 0.2s;
+  border-right: 1px solid #333;
 }
 
 .testimonial-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 20px rgba(30, 58, 138, 0.12);
+  background: #ffc107;
+}
+
+.testimonial-card:hover .testimonial-quote,
+.testimonial-card:hover .testimonial-author strong,
+.testimonial-card:hover .testimonial-author span {
+  color: #1a1a1a;
 }
 
 .testimonial-quote {
   font-style: italic;
   font-size: 1rem;
   margin-bottom: 20px;
-  color: #475569;
+  color: #ffffff;
   line-height: 1.6;
 }
 
@@ -653,67 +667,74 @@ section:nth-child(even) {
   display: block;
   font-size: 1rem;
   font-weight: 700;
-  color: #1e3a8a;
+  color: #ffc107;
   margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .testimonial-author span {
   font-size: 0.9rem;
-  color: #64748b;
+  color: #999;
 }
 
 .testimonial-cta {
   display: inline-block;
-  color: #0369a1;
+  color: #ffc107;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.9rem;
-  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.2s;
 }
 
 .testimonial-cta:hover {
-  color: #1e3a8a;
-  transform: translateX(5px);
+  color: #1a1a1a;
 }
 
 /* ===== METRICS ===== */
 .metrics-section {
-  background: white;
+  background: #1a1a1a;
 }
 
 .metrics-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 24px;
+  gap: 0;
   margin-bottom: 30px;
 }
 
 .metric-card {
   text-align: center;
   padding: 30px 20px;
-  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(30, 58, 138, 0.08);
-  transition: all 0.3s ease;
-  border-top: 3px solid #0369a1;
+  background: #1a1a1a;
+  transition: all 0.2s;
+  border-right: 1px solid #333;
 }
 
 .metric-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 20px rgba(30, 58, 138, 0.12);
+  background: #ffc107;
+}
+
+.metric-card:hover .metric-number,
+.metric-card:hover .metric-label {
+  color: #1a1a1a;
 }
 
 .metric-number {
   font-size: 2.5rem;
   font-weight: 900;
-  color: #1e3a8a;
+  color: #ffc107;
   margin-bottom: 8px;
 }
 
 .metric-label {
-  color: #475569;
-  font-weight: 600;
+  color: #ffffff;
+  font-weight: 700;
   font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .metrics-cta {
@@ -722,7 +743,7 @@ section:nth-child(even) {
 
 /* ===== MEDIA ===== */
 .media-section {
-  background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%);
+  background: #f5f5f5;
 }
 
 .media-content {
@@ -734,15 +755,15 @@ section:nth-child(even) {
 
 .video-wrapper {
   position: relative;
-  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(3, 105, 161, 0.1);
+  border: 3px solid #ffc107;
 }
 
 .video-wrapper iframe {
   width: 100%;
   height: 315px;
   border: none;
+  display: block;
 }
 
 .video-overlay {
@@ -764,28 +785,32 @@ section:nth-child(even) {
 .overlay-cta {
   color: white;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   padding: 10px 20px;
-  background: #1e3a8a;
-  border-radius: 6px;
-  transition: all 0.3s ease;
+  background: #ffc107;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.2s;
   display: inline-block;
 }
 
 .overlay-cta:hover {
-  background: #0369a1;
-  transform: translateY(-2px);
+  background: #1a1a1a;
+  color: #ffc107;
 }
 
 .media-description h3 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #1e3a8a;
+  color: #1a1a1a;
   margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .media-description p {
-  color: #475569;
+  color: #555;
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -797,24 +822,26 @@ section:nth-child(even) {
 }
 
 .media-link {
-  color: #0369a1;
+  color: #1a1a1a;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.95rem;
-  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.2s;
 }
 
 .media-link:hover {
-  color: #1e3a8a;
-  transform: translateX(5px);
+  color: #ffc107;
 }
 
 /* ===== BOTTOM CTA ===== */
 .bottom-cta-section {
-  background: linear-gradient(135deg, #1e3a8a 0%, #0369a1 100%);
+  background: #1a1a1a;
   color: white;
   text-align: center;
   padding: 60px 24px;
+  border-top: 4px solid #ffc107;
 }
 
 .cta-title {
@@ -840,12 +867,35 @@ section:nth-child(even) {
 
 .cta-button {
   padding: 12px 24px;
-  border-radius: 6px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.95rem;
-  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   display: inline-block;
+  transition: all 0.2s;
+}
+
+.cta-button.primary {
+  background: #ffc107;
+  color: #1a1a1a;
+  border: 2px solid #ffc107;
+}
+
+.cta-button.primary:hover {
+  background: transparent;
+  color: #ffc107;
+}
+
+.cta-button.secondary {
+  background: transparent;
+  color: #ffc107;
+  border: 2px solid #ffc107;
+}
+
+.cta-button.secondary:hover {
+  background: #ffc107;
+  color: #1a1a1a;
 }
 
 .cta-button.primary {

@@ -1,5 +1,4 @@
 import { createApp } from 'vue';
-import { createRouter, createWebHistory } from 'vue-router';
 import { createPinia } from 'pinia';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -99,19 +98,6 @@ library.add(
   faMapMarkerAlt
 );
 
-// Create Vue Router instance
-const router = createRouter({
-  history: createWebHistory(),
-  routes: [
-    {
-      path: '/our-works',
-      name: 'OurWorks',
-      component: OurWorks
-    }
-    // Removed portfolio category route - using Laravel blade routing instead
-  ]
-});
-
 // Create Pinia store instance
 const pinia = createPinia();
 
@@ -157,8 +143,7 @@ app.component('welcome-page', Welcome);
 app.component('blog-list', BlogList);
 app.component('blog-details', BlogDetails);
 
-// Use the router and Pinia
-app.use(router);
+// Use Pinia
 app.use(pinia);
 
 // Mount the application instance to the specified element
