@@ -188,7 +188,7 @@ class AdminController extends Controller
             'alert-type' => 'success'
         );
 
-        return redirect('/login')->with($notification);
+        return redirect('/jamalhaji')->with($notification);
     }//End Method
 
 

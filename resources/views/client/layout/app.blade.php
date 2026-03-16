@@ -79,11 +79,10 @@
         </div>
     
     @yield('content')
-    </div>
 
     <!-- Footer -->
-    <!--footer start-->
     <footer-component></footer-component>
+    </div>
 
     <!-- Scroll Up -->
     <div id="scrollUp" class="orange-color">
