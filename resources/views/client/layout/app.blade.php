@@ -80,6 +80,9 @@
     
     @yield('content')
 
+    <!-- WhatsApp Button -->
+    <whatsapp-button></whatsapp-button>
+
     <!-- Footer -->
     <footer-component></footer-component>
     </div>
@@ -88,9 +91,6 @@
     <div id="scrollUp" class="orange-color">
         <i class="fa fa-angle-up"></i>
     </div>
-
-    <!-- WhatsApp Button -->
-    <whatsapp-button></whatsapp-button>
 
     <!-- Search Modal -->
     <div aria-hidden="true" class="modal fade search-modal" role="dialog" tabindex="-1">

@@ -157,7 +157,7 @@ export default {
   name: 'SiteHeader',
   data() {
     return {
-      whatsappNumber: '254722850008',
+      whatsappNumber: '254735551515',
       mobileMenuOpen: false,
       showResourcesDropdown: false,
       mobileResourcesOpen: false,
