@@ -114,6 +114,9 @@
             <li><a href="/products">PRODUCTS</a></li>
             <li><a href="/contact">CONTACT</a></li>
           </ul>
+          <div class="made-with-love">
+            Made with <i class="fas fa-heart"></i> by <a href="https://wabestudio.co.ke" target="_blank" rel="noopener noreferrer">WabeStudio</a>
+          </div>
         </div>
       </div>
     </div>
@@ -402,11 +405,35 @@ onMounted(() => {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .copyright {
   font-size: 13px;
   color: #888;
+}
+
+.made-with-love {
+  font-size: 12px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.made-with-love i {
+  color: #e11d48;
+  font-size: 10px;
+}
+
+.made-with-love a {
+  color: #888;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.made-with-love a:hover {
+  color: var(--royal-yellow);
 }
 
 .footer-menu {
@@ -454,7 +481,7 @@ onMounted(() => {
   .footer-bottom-content {
     flex-direction: column;
     text-align: center;
-    gap: 16px;
+    gap: 12px;
   }
 
   .footer-menu {
@@ -464,6 +491,10 @@ onMounted(() => {
 
   .copyright {
     font-size: 12px;
+  }
+
+  .made-with-love {
+    font-size: 11px;
   }
 }
 

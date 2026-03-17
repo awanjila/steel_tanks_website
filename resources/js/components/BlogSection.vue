@@ -289,23 +289,27 @@ onMounted(async () => {
 .blog-batch {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2px;
-  background: #ddd;
+  gap: 24px;
   width: 100%;
 }
 
 .blog-card {
   background: #ffffff;
   overflow: hidden;
-  transition: background 0.1s;
-  border: none;
+  transition: all 0.2s;
+  border: 1px solid #e0e0e0;
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
 .blog-card:hover {
-  background: var(--royal-yellow);
+  border-color: var(--royal-yellow);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.blog-card:hover .card-title {
+  color: var(--royal-yellow);
 }
 
 .card-image-wrapper {
@@ -335,9 +339,18 @@ onMounted(async () => {
   align-items: center;
   gap: 16px;
   font-size: 0.8rem;
-  color: #666;
+  color: #888;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.card-meta::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background: var(--royal-yellow);
 }
 
 .blog-card:hover .card-meta {
@@ -354,6 +367,7 @@ onMounted(async () => {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  transition: color 0.2s;
 }
 
 .card-excerpt {
@@ -379,15 +393,24 @@ onMounted(async () => {
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 700;
-  transition: all 0.1s;
+  transition: all 0.2s;
   align-self: flex-start;
   padding: 8px 0;
-  margin-top: 4px;
+  margin-top: auto;
   text-transform: uppercase;
 }
 
 .card-link:hover {
   gap: 12px;
+  color: var(--royal-yellow);
+}
+
+.card-link svg {
+  transition: transform 0.2s;
+}
+
+.card-link:hover svg {
+  transform: translateX(4px);
 }
 
 .card-link.disabled {
@@ -507,7 +530,7 @@ onMounted(async () => {
 @media (max-width: 1024px) {
   .blog-batch {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1px;
+    gap: 20px;
   }
 }
 
@@ -534,7 +557,7 @@ onMounted(async () => {
 
   .blog-batch {
     grid-template-columns: 1fr;
-    gap: 1px;
+    gap: 20px;
   }
 
   .card-image-wrapper {

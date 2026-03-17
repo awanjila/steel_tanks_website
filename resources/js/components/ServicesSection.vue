@@ -254,8 +254,7 @@ export default {
 .services-batch {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2px;
-  background: #444;
+  gap: 24px;
 }
 
 .service-card {
@@ -263,11 +262,13 @@ export default {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: background 0.1s;
+  transition: all 0.2s;
+  border: 1px solid #e0e0e0;
 }
 
 .service-card:hover {
-  background: var(--royal-yellow);
+  border-color: var(--royal-yellow);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .card-image-wrapper {
@@ -426,6 +427,7 @@ export default {
 
   .services-batch {
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 }
 
@@ -440,7 +442,7 @@ export default {
 
   .services-batch {
     grid-template-columns: 1fr;
-    gap: 1px;
+    gap: 20px;
   }
 
   .carousel-nav {
